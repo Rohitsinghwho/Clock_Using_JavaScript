@@ -4,6 +4,7 @@
 
 
 // Getting Element from DOM 
+let mytitle= document.getElementsByTagName('title').innerHTML= "CLOCK"
 let displayTime= document.getElementById('time');
 let displayDate= document.getElementById('Date');
 let a;
